@@ -3,12 +3,12 @@
 
 import random
 
-computer_number = random.randint(1, 100)
+computer_number = random.randint(1, 100)  # Computer picks random integer from 1 to 100
 
-while True:
-    user_number = input("Guess the number: ")
+while True:  # Loop which can be broken only when player wins.
+    user_number = input("Guess the number: ")  # Player picks number and approve it with enter.
     try:
-        user_number = int(user_number)
+        user_number = int(user_number)  # User input is string - needs conversion for logical operations.
         if user_number > computer_number:
             print("Too big!")
         elif user_number < computer_number:
@@ -17,4 +17,4 @@ while True:
             print("You win!")
             break
     except (ValueError, TypeError):
-        print("It's not an integer number!")
+        print("It's not an integer number!")  # If number is not an integer - error occurs.
