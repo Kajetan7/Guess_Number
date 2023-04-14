@@ -10,8 +10,8 @@ The program will prompt you to enter a number between 1 and 100. After you enter
 
 ## Contributing
 
-Contributions are welcome! If you find a bug or have an idea for an improvement, please [submit an issue](https://github.com/example/guess-number-game/issues) or [create a pull request](https://github.com/example/guess-number-game/pulls).
+Contributions are welcome! If you find a bug or have an idea for an improvement, please [submit an issue](https://github.com/Kajetan7/Guess_Number/issues) or [create a pull request](https://github.com/Kajetan7/Guess_Number/pulls).
 
 ## License
 
-This game is released under the [MIT License](https://github.com/example/guess-number-game/blob/main/LICENSE).
+This game is released under the MIT License.
